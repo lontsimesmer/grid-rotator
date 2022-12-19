@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+  .contain {
+    background: #ddd;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    height: 70%;
+    width: 35%;
+  }
+  
+  .rotator {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .grid-button {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  button {
+    font-size: 20px;
+    margin-left: 2px;
+    padding: 32px;
+    width: 95%;
+  }
