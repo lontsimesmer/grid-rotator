@@ -21,13 +21,13 @@ for (const i of button) {
   }
 }
 
-function clockwise() {
-  const btn5 = array.pop ()
-  array.unshift (btn5)
+function clockwise () {
+  const btn5 = array.pop()
+  array.unshift(btn5)
 }
 
-function anticlockwise() {
-  const swapp = array.shift ()
+function anticlockwise () {
+  const swapp = array.shift()
   array.push(swapp)
 }
 
