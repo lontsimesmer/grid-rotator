@@ -5,17 +5,17 @@ This is a grid rotator whose UI is designed as follows: 9 buttons labeled 1 to 9
 ### Built with  
 - HTML
 - CSS
-- Javascript
+- JavaScript
 ### Prerequisites
 knowlegde about:
 - HTML
 - CSS
-- Javascript
+- JavaScript
 - Google chrome
 ## Clone project
 Get a local copy of this project by following the steps below:
 - clone this repository with `git@github.com:Nathanael-Lontsi/grid-rotator.git`
-- Move to the project directory by typing the followin: cd javascript and cd grid-rotator in your terminal.
+- Move to the project directory by typing the followin: cd javaScript and cd grid-rotator in your terminal.
 ## Steps
 - $ git clone `git@github.com:Nathanael-Lontsi/grid-rotator.git`
 - $ `cd grid-rotator`
