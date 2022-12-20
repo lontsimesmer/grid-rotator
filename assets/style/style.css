@@ -43,3 +43,32 @@ button {
   padding: 33px;
   width: 95%;
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  .contain {
+    height: 60%;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 20px;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contain {
+    height: 50%;
+    width: 50%;
+  }
+
+  button {
+    font-size: 10px;
+    padding: 20px;
+    width: 95%;
+  }
+}
