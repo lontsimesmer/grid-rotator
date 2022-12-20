@@ -1,38 +1,37 @@
-let button = document.querySelectorAll('.bttn')
-let btn1 = document.getElementById('1')
-let btn2 = document.getElementById('2')
-let btn3 = document.getElementById('3')
-let btn4 = document.getElementById('4')
-let btn5 = document.getElementById('5')
-let btn6 = document.getElementById('6')
-let btn7 = document.getElementById('7')
-let btn8 = document.getElementById('8')
-let btn9 = document.getElementById('9')
-let array = [1, 2, 3, 6, 9, 8, 7, 4]
+const button = document.querySelectorAll('.bttn')
+const btn1 = document.getElementById('1')
+const btn2 = document.getElementById('2')
+const btn3 = document.getElementById('3')
+const btn4 = document.getElementById('4')
+const btn5 = document.getElementById('5')
+const btn6 = document.getElementById('6')
+const btn7 = document.getElementById('7')
+const btn8 = document.getElementById('8')
+const btn9 = document.getElementById('9')
+const array = [1, 2, 3, 6, 9, 8, 7, 4]
 
-btn5.onclick = function() {
+btn5.onclick = function () {
   clockwise()
   swapp()
 }
 for (const i of button) {
-  i.onclick = function anti1() {
+  i.onclick = function () {
     anticlockwise()
     swapp()
   }
 }
 
-
 function clockwise() {
-  let   btn5 = array.pop()
-  array.unshift(btn5)
+  const btn5 = array.pop ()
+  array.unshift (btn5)
 }
 
 function anticlockwise() {
-  let swapp = array.shift()
+  const swapp = array.shift ()
   array.push(swapp)
 }
 
-function swapp() {
+function swapp () {
   btn1.innerHTML = array[0]
   btn2.innerHTML = array[1]
   btn3.innerHTML = array[2]
