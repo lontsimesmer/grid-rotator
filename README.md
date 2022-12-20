@@ -15,7 +15,7 @@ knowlegde about:
 ## Clone project
 Get a local copy of this project by following the steps below:
 - clone this repository with `git@github.com:Nathanael-Lontsi/grid-rotator.git`
-- Move to the project directory by typing the followin: cd javaScript and cd grid-rotator in your terminal.
+- Move to the project directory by typing the following: cd JavaScript and cd grid-rotator in your terminal.
 ## Steps
 - $ git clone `git@github.com:Nathanael-Lontsi/grid-rotator.git`
 - $ `cd grid-rotator`
